@@ -31,13 +31,17 @@ if __name__ == '__main__':
 
     # Calculate the area of your circle and store it in a variable
     # Hint, you can use math.pi
+    area = math.pi * radius * radius
 
 
 
 
     # Write the area of your circle using the turtle .write() method
     # my_turtle.write(arg="area = " + str(area), move=True, align='left', font=('Arial',8,'normal'))
+    chicken.write(arg="area = " + str(area), move=True, align='left', font=('Arial',8,'normal'))
 
     # Hide your turtle
+    chicken.hideturtle()
 
     # Call turtle.done()
+    turtle.done()
